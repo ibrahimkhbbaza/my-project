@@ -43,7 +43,7 @@
 }
 @for $i from 1 through 6 {
     .prso-#{$i}{
-        background-image: url('../../../images/person_#{$i}.jpg');
+        background-image: url('../images/person_#{$i}.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }

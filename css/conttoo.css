@@ -243,30 +243,56 @@ header .button-red {
   color: #fd4d40;
 }
 
-.section-Our-P {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #17a2b8;
+.The-Contact-Form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f6f5f5;
 }
 
-.section-Our-P .b {
+.The-Contact-Form .b {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.section-Our-P .ourp {
-  border-radius: 10px;
+.The-Contact-Form input, .The-Contact-Form textarea {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  min-width: 100%;
+}
+
+.The-Contact-Form input:hover, .The-Contact-Form textarea:hover {
+  border-color: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.The-Contact-Form input:active, .The-Contact-Form textarea:active {
+  border-color: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.The-Contact-Form input {
+  height: 50px;
+}
+
+.The-Contact-Form .section2inform {
+  margin: auto;
   background-color: white;
-  padding: 40px 20px;
+  padding: 20px;
 }
 
-.section-Our-P .ourp1 {
-  height: 80px;
+.The-Contact-Form span {
+  color: darkgray;
 }
 
-.section-Our-P .ourp1 img {
-  width: 80px;
-  height: 80px;
+.The-Contact-Form button {
+  padding: 15px 40px;
+}
+
+.The-Contact-Form .lastp {
+  width: 200px;
+  margin: auto;
 }
 
 .What-Our-Client-Says {
@@ -333,32 +359,6 @@ header .button-red {
   line-height: 40px;
 }
 
-.Bring-Fun {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffc107;
-}
-
-.Bring-Fun .row div {
-  line-height: 40px;
-}
-
-@media (max-width: 500px) {
-  .Bring-Fun .row div {
-    text-align: center;
-  }
-}
-
-.Bring-Fun .row p {
-  padding-top: 15px;
-  font-size: 30px;
-  color: white;
-}
-
-.Bring-Fun .row button {
-  padding: 10px 45px;
-}
-
 footer {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -398,4 +398,4 @@ footer ul {
             transform: translate(0, 5px);
   }
 }
-/*# sourceMappingURL=Packages.css.map */
+/*# sourceMappingURL=cont.css.map */
